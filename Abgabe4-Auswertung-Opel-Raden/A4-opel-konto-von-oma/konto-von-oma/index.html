@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontoauswertung</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kontoauswertung</h1>
+    <label class="file-btn">
+      CSV laden
+      <input type="file" id="csvFile" accept=".csv,text/csv,text/plain">
+    </label>
+    <span id="status">Noch keine Datei geladen.</span>
+  </header>
+
+  <main>
+    <!-- TAB 1: Abfrage -->
+    <section id="tab-abfrage" class="panel">
+      <div class="filters">
+        <div class="grp">
+          <span>Auswahl</span>
+          <div class="modes" role="group" aria-label="Auswahl">
+            <button type="button" id="modeAll" class="mode active">Alle</button>
+            <button type="button" id="modeName" class="mode">Name selbst eingeben</button>
+          </div>
+        </div>
+        <label id="nameWrap" hidden>Name
+          <input type="search" id="fText" placeholder="z. B. Kaufland, Oma, BAFÖG">
+        </label>
+        <label>Kategorie
+          <select id="fKat"><option value="">Alle</option></select>
+        </label>
+        <label>Art
+          <select id="fArt">
+            <option value="">Alle</option>
+            <option value="aus">Nur Ausgaben</option>
+            <option value="ein">Nur Einnahmen</option>
+          </select>
+        </label>
+        <label>Von
+          <input type="date" id="fVon" value="2026-04-01">
+        </label>
+        <label>Bis
+          <input type="date" id="fBis" value="2026-09-30">
+        </label>
+        <button id="fReset" type="button">Zurücksetzen</button>
+      </div>
+
+      <div class="summary">
+        <div class="card"><span>Treffer</span><strong id="sCount">0</strong></div>
+        <div class="card"><span>Summe</span><strong id="sSum">0,00 €</strong></div>
+        <div class="card"><span>Einnahmen</span><strong id="sIn" class="pos">0,00 €</strong></div>
+        <div class="card"><span>Ausgaben</span><strong id="sOut" class="neg">0,00 €</strong></div>
+      </div>
+
+      <div class="actions">
+        <button id="openPopup" type="button">Gefilterte Liste als Popup</button>
+        <button id="openAll" type="button">Komplette CSV auflisten</button>
+      </div>
+
+      <table id="tbl">
+        <thead>
+          <tr>
+            <th data-sort="datum">Datum</th>
+            <th data-sort="text">Buchungstext</th>
+            <th data-sort="kat">Kategorie</th>
+            <th data-sort="betrag" class="num">Betrag</th>
+            <th data-sort="tnr">Transaktionsnr.</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Popup -->
+  <dialog id="popup">
+    <div class="dlg-head">
+      <h2 id="popTitle">Auflistung</h2>
+      <button id="closePopup" type="button" aria-label="Schließen">✕</button>
+    </div>
+    <div id="popBody"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

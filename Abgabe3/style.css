@@ -1,0 +1,53 @@
+body {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: #202124;
+  font: 16px/1.5 system-ui, sans-serif;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #d5d9de;
+}
+
+th {
+  background: #edf2f7;
+}
+
+tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+/* Spaltenfarben */
+/* Standard: tiefblau (Datum, Währung, Transaktions-ID) */
+tbody td {
+  color: darkblue;
+}
+
+/* Spalte 2: Betrag in Rot, fett und rechtsbündig */
+tbody td:nth-child(2) {
+  color: red;
+  font-weight: 600;
+  text-align: right;
+}
+
+/* Spalte 5: Name in Schwarz */
+tbody td:nth-child(5) {
+  color: black;
+}

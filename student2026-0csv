@@ -1,0 +1,6 @@
+,,,
+Datum,Buchungstext,Kategorie,Betrag_EUR
+2026-04-01,BAfoeG Zahlung,Einnahme,895
+2026-04-03,Mietzahlung,Wohnen,-240
+2026-04-05,AOK Krankenversicherung,Versicherung,-150
+2026-04-07,McFIT.de Monatsbeitrag,Fitness,-30

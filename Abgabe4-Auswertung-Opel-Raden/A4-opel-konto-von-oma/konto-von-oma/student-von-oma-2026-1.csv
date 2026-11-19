@@ -1,0 +1,69 @@
+Datum,Buchungstext,Kategorie,Betrag_EUR,Transaktionsnummer
+2026-04-01,BAFÖG Zahlung,Einnahme,895,227904006
+2026-04-03,Mietzahlung,Wohnen,-240,443043868
+2026-04-05,AOK Krankenversicherung,Versicherung,-150,639572182
+2026-04-07,McFIT.de Monatsbeitrag,Fitness,"-29,9",649565454
+2026-04-09,Fahrtkosten Monatsticket,Verkehr,-66,794923749
+2026-04-09,Getränke,Lebensmittel,-47,246015109
+2026-04-12,Kaufland Einkauf,Lebensmittel,-36,210205473
+2026-04-15,Lernmittel und Studienbedarf,Bildung,-30,339749960
+2026-04-18,Lidl Einkauf,Lebensmittel,-39,745351751
+2026-04-21,KiK Einkauf,Kleidung und Haushalt,-15,767313473
+2026-04-28,Mensa Zahlungen Monat April,Verpflegung,-160,697600698
+2026-05-01,BAFÖG Zahlung,Einnahme,895,551631864
+2026-05-03,Mietzahlung,Wohnen,-240,941140765
+2026-05-05,AOK Krankenversicherung,Versicherung,-150,714791075
+2026-05-07,McFIT.de Monatsbeitrag,Fitness,"-29,9",688208069
+2026-05-09,Fahrtkosten Monatsticket,Verkehr,-66,884410270
+2026-05-09,Getränke,Lebensmittel,-39,626476639
+2026-05-12,Kaufland Einkauf,Lebensmittel,-36,933838458
+2026-05-15,Lernmittel und Studienbedarf,Bildung,-30,924757551
+2026-05-18,Lidl Einkauf,Lebensmittel,-39,627104586
+2026-05-21,KiK Einkauf,Kleidung und Haushalt,-15,906407983
+2026-05-28,Mensa Zahlungen Monat Mai,Verpflegung,-190,930080574
+2026-06-01,BAFÖG Zahlung,Einnahme,895,729771961
+2026-06-03,Mietzahlung,Wohnen,-240,573622146
+2026-06-05,AOK Krankenversicherung,Versicherung,-150,357627256
+2026-06-07,McFIT.de Monatsbeitrag,Fitness,"-29,9",102721764
+2026-06-09,Fahrtkosten Monatsticket,Verkehr,-66,759496827
+2026-06-09,Getränke,Lebensmittel,-44,845719301
+2026-06-10,Zuwendung Oma,Einnahme,100,469094378
+2026-06-12,Kaufland Einkauf,Lebensmittel,-36,186676380
+2026-06-15,Lernmittel und Studienbedarf,Bildung,-30,218902461
+2026-06-18,Lidl Einkauf,Lebensmittel,-39,408421828
+2026-06-21,KiK Einkauf,Kleidung und Haushalt,-15,976990827
+2026-06-28,Mensa Zahlungen Monat Juni,Verpflegung,-210,205282126
+2026-07-01,BAFÖG Zahlung,Einnahme,895,582813204
+2026-07-03,Mietzahlung,Wohnen,-240,112336038
+2026-07-05,AOK Krankenversicherung,Versicherung,-150,974844773
+2026-07-07,McFIT.de Monatsbeitrag,Fitness,"-29,9",835704344
+2026-07-09,Fahrtkosten Monatsticket,Verkehr,-66,626441373
+2026-07-09,Getränke,Lebensmittel,-38,690954806
+2026-07-10,Zuwendung Oma,Einnahme,50,817158424
+2026-07-12,Kaufland Einkauf,Lebensmittel,-36,829488324
+2026-07-15,Lernmittel und Studienbedarf,Bildung,-30,437405251
+2026-07-18,Lidl Einkauf,Lebensmittel,-39,325727008
+2026-07-21,KiK Einkauf,Kleidung und Haushalt,-15,526508939
+2026-07-28,Mensa Zahlungen Monat Juli,Verpflegung,-175,370060143
+2026-08-01,BAFÖG Zahlung,Einnahme,895,473294770
+2026-08-03,Mietzahlung,Wohnen,-240,482935044
+2026-08-05,AOK Krankenversicherung,Versicherung,-150,964508088
+2026-08-07,McFIT.de Monatsbeitrag,Fitness,"-29,9",504096818
+2026-08-09,Fahrtkosten Monatsticket,Verkehr,-66,900979098
+2026-08-09,Getränke,Lebensmittel,-49,129970818
+2026-08-12,Kaufland Einkauf,Lebensmittel,-36,651460429
+2026-08-15,Lernmittel und Studienbedarf,Bildung,-30,784743907
+2026-08-18,Lidl Einkauf,Lebensmittel,-39,181947868
+2026-08-21,KiK Einkauf,Kleidung und Haushalt,-15,876435574
+2026-08-28,Mensa Zahlungen Monat August,Verpflegung,-200,465495893
+2026-09-01,BAFÖG Zahlung,Einnahme,895,196277024
+2026-09-03,Mietzahlung,Wohnen,-240,698557955
+2026-09-05,AOK Krankenversicherung,Versicherung,-150,677742599
+2026-09-07,McFIT.de Monatsbeitrag,Fitness,"-29,9",413663472
+2026-09-09,Fahrtkosten Monatsticket,Verkehr,-66,408810231
+2026-09-09,Getränke,Lebensmittel,-47,484696003
+2026-09-12,Kaufland Einkauf,Lebensmittel,-36,591180832
+2026-09-15,Lernmittel und Studienbedarf,Bildung,-30,251277718
+2026-09-18,Lidl Einkauf,Lebensmittel,-39,792343406
+2026-09-21,KiK Einkauf,Kleidung und Haushalt,-15,855887981
+2026-09-28,Mensa Zahlungen Monat September,Verpflegung,-185,869245124

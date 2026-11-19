@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenübersicht</title>
+  <style>
+    body {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      color: #202124;
+      font: 16px/1.5 system-ui, sans-serif;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    .table-container {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th,
+    td {
+      padding: 0.7rem 0.9rem;
+      border: 1px solid #d5d9de;
+    }
+
+    th {
+      background: #edf2f7;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f8fafc;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Datenübersicht</h1>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Currency</th>
+            <th scope="col">Transaction ID</th>
+            <th scope="col">Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>21.10.2023</td><td>EUR</td><td>150.00</td><td>123456789</td><td>Max Mustermann</td></tr>
+          <tr><td>23.10.2023</td><td>USD</td><td>200.00</td><td>987654321</td><td>Erika Musterfrau</td></tr>
+          <tr><td>24.10.2023</td><td>GBP</td><td>300.00</td><td>192837465</td><td>John Doe</td></tr>
+          <tr><td>25.10.2023</td><td>EUR</td><td>400.00</td><td>564738291</td><td>Jane Smith</td></tr>
+          <tr><td>25.10.2023</td><td>USD</td><td>500.00</td><td>102938475</td><td>Alice Johnson</td></tr>
+          <tr><td>26.10.2023</td><td>GBP</td><td>600.00</td><td>019283746</td><td>Bob Brown</td></tr>
+          <tr><td>28.10.2023</td><td>EUR</td><td>700.00</td><td>564738292</td><td>Charlie Davis</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>
